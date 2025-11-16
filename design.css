@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: #dff6f0;
+  align-items: center;
+  /*display: flex;
+    align-items: center;
+    justify-items: center;*/
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(83, 4, 4);
+  text-align: center;
+  width: 100;
+}
+
+#username {
+  color: rgb(6, 6, 93);
+  text-align: left;
+  font-style: oblique;
+  font-size: medium;
+}
+#email {
+  color: rgb(244, 250, 248);
+  text-align: center;
+  font-style: italic;
+}
+#addess {
+  color: rgb(193, 82, 82);
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+#info {
+  column-rule-color: rgb(0, 0, 0);
+  font-style: italic;
+}
+#carear {
+  color: rgb(0, 0, 0);
+  font-style: oblique;
+}
+/*for class we use . to represent class*/
+.prince {
+  background-color: rgb(215, 246, 246);
+  color: rgb(0, 0, 0);
+  display: flex; /*this is for flexiblity of display without this cannot use further feature*/
+  font-style: italic;
+  text-align: center;
+  margin: 20px; /*margin is for outside gap betwwen text and boarder*/
+  padding: 20px; /*padding is for insidr gap between text and boarder*/
+}
